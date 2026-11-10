@@ -11,6 +11,11 @@
 4. Отвечает про доставку, оплату и возвраты только по документам компании (`search_docs`, RAG на BM25) и указывает источник.
 5. Пишет менеджеру в Telegram о каждой новой заявке.
 
+
+## Local portfolio demo
+
+I run this project locally on my computer with my own environment configuration. It can be demonstrated in Telegram while the process is active; the repository contains setup instructions and reproducible demo data. The CSV catalogue and JSON CRM are demonstration integrations. Keep credentials in the local environment file.
+
 ## Архитектура
 ```
 Telegram (aiogram 3) ── текст / голос (Whisper) ──► Agent.reply()
